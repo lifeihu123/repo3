@@ -22,6 +22,7 @@ public class ItemsTest {
         ItemsService itemsService = ac.getBean(ItemsService.class);
         Items items = itemsService.findById(1);
         System.out.println(items.getName());
+        System.out.println("测试");
 
     }
 }
