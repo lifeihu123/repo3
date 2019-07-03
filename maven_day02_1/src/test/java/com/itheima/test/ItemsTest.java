@@ -23,6 +23,7 @@ public class ItemsTest {
         Items items = itemsService.findById(1);
         System.out.println(items.getName());
         System.out.println("测试");
+        System.out.println("更新");
 
     }
 }
